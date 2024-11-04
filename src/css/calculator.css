@@ -25,6 +25,7 @@ body{
     margin-top: 15vmin;
 
 }
+
 .calculatoContainer input{
     padding: 3vmin;
     margin: 2vmin;
@@ -57,6 +58,7 @@ body{
     
     filter: drop-shadow(1px 1px 1px white);
 }
+
 
 @media (max-width:1000px){
     .calculatoContainer{

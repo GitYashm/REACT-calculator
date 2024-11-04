@@ -2,8 +2,8 @@ function Calculatorbtn({value}) {
   return (
     <div className="btncontainer">
     <div className="btn1">
-        <button value={"AC"} onClick={value}className='oper'>AC</button>
-        <button value={"*"} onClick={value} className='oper'>*</button>
+        <button value={"AC"} onClick={value} className='oper'>AC</button>
+        <button value={"000"} onClick={value} className='oper'>000</button>
         <button value={"/"} onClick={value} className='oper'>/</button>
         <button value={"+"} onClick={value} className='oper'>+</button>
     </div>
@@ -20,6 +20,12 @@ function Calculatorbtn({value}) {
         <button value={"%"} onClick={value} className='oper'>%</button>
     </div>
     <div className="btn4">
+        <button value={"1"} onClick={value}>1</button>
+        <button value={"2"} onClick={value}>2</button>
+        <button value={"3"} onClick={value}>3</button>
+        <button value={"*"} onClick={value} className='oper'>X</button>
+    </div>
+    <div className="btn5">
         <button value={"0"} onClick={value}>0</button>
         <button value={"00"} onClick={value}>00</button>
         <button value={"."} onClick={value}>.</button>
