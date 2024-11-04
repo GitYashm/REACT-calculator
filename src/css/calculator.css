@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../public/blue-stationery-flat-lay.jpg");
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+.calculatoContainer{
+    background:linear-gradient(180deg,rgba(251, 254, 255, 0.651),rgba(37, 37, 255, 0.219));
+    max-width: 50vmin;
+    min-height: 75vh;
+    border-radius: 20px;
+}
+.calculatoContainer .btncontainer{
+    /* background-color: blue; */
+    margin-top: 15vmin;
+
+}
+.calculatoContainer input{
+    padding: 3vmin;
+    margin: 2vmin;
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 7vmin;
+    color: white;
+
+}
+.calculatoContainer button{
+    width: 8vmin;
+    height: 8vmin;
+    margin: 1vmin;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.555);
+    font-size: 4vmin;
+    color: white;
+    cursor: pointer;
+
+}
+.calculatoContainer button:active{
+    background-color: aliceblue;
+}
+.calculatoContainer .oper{
+    color: rgb(28, 178, 216);
+    background-color: rgba(233, 176, 235, 0.473);
+    
+    filter: drop-shadow(1px 1px 1px white);
+}
+
+@media (max-width:1000px){
+    .calculatoContainer{
+        background:linear-gradient(180deg,rgba(251, 254, 255, 0.651),rgba(37, 37, 255, 0.219));
+        min-width: 80vw;
+        min-height: 60vh;
+        border-radius: 20px;
+        padding: 3vmin;
+    }
+    .calculatoContainer .btncontainer{
+        /* background-color: blue; */
+        min-height: 45vh;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        
+
+    
+    }
+    .calculatoContainer input{
+        padding: 3vmin;
+        margin: 2vmin;
+        width: 80%;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        font-size: 13vmin;
+        color: white;
+    
+    }
+    .calculatoContainer button{
+        min-width: 15vmin;
+        min-height: 15vmin;
+        margin: 1vmin;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.555);
+        font-size: 7vmin;
+        color: white;
+        cursor: pointer;
+    
+    }
+    
+}
+
+@media (max-width:500px){
+    .calculatoContainer{
+        background:linear-gradient(180deg,rgba(251, 254, 255, 0.651),rgba(37, 37, 255, 0.219));
+        min-width: 80vw;
+        min-height: 60vh;
+        border-radius: 20px;
+        padding: 3vmin;
+    }
+    .calculatoContainer .btncontainer{
+        /* background-color: blue; */
+        min-height: 45vh;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        
+
+    
+    }
+    .calculatoContainer input{
+        padding: 3vmin;
+        margin: 2vmin;
+        width: 80%;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        font-size: 13vmin;
+        color: white;
+    
+    }
+    .calculatoContainer button{
+        min-width: 15vmin;
+        min-height: 15vmin;
+        margin: 1vmin;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.555);
+        font-size: 7vmin;
+        color: white;
+        cursor: pointer;
+    
+    }
+    
+}
